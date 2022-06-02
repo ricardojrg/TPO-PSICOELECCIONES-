@@ -1,0 +1,79 @@
+/*tamaño de movil grande*/
+@media only screen and (max-width: 700px) {
+
+    /* inicio del header*/
+ 
+     /* fin del header*/
+    
+    main .seccion1_presentacion {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+    
+    .seccion1_presentacion .imagen_seccion1 {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        
+    }
+
+    .seccion1_presentacion .info_seccion1 {
+        margin: 0;
+    }
+ 
+     /* inicio de seccion 2 contacto*/
+ 
+     .seccion2_informacion {
+     display: flex;
+     justify-content:space-between;
+     flex-direction: column;
+     align-items:center;
+     background-color: rgb(242, 230, 243);
+     }
+ 
+     .seccion2_informacion .seccion2_formacion {
+         flex: 1;
+         width: 60%;
+         background-color: white;
+         margin: 20px;
+         border-radius: 40px;
+         justify-content: center;
+         padding: 20px;
+         box-shadow: inset 0px 0px 20px rgb(167, 45, 45);
+     }
+ 
+     /* fin de seccion 2 contacto*/
+ 
+     /* inicio de seccion 4 contacto*/
+     .carousel {
+         display:flex;
+         align-items: center;
+         flex-direction: column;
+         justify-content: space-between;
+         background-color: rgb(242, 230, 243);
+     }
+    
+     .carousel .info_carousel1 h1 {
+         padding-top: 20px;
+     }
+ 
+     .carousel .espacio_formulario h2  {
+         padding-top: 20px;
+     }
+
+     .slide {
+        flex:1;
+        width: 60%;
+        min-width: 300px;    
+    }
+
+    /* fin de seccion 4 contacto*/
+ }
+ 

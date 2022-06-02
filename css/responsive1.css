@@ -1,0 +1,60 @@
+/*tamaño de movil grande*/
+@media only screen and (max-width: 900px) {
+
+   /* inicio del header*/
+   
+    header .barra_de_contacto_superior .menu_superior_izquierdo ul {
+
+        list-style: none;
+        align-items: center;
+    }
+
+    header .barra_principal {
+        background-color: rgb(235, 179, 196);
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .barra_principal .logo_psicoelecciones .logo{
+        justify-content: center;
+        height: 40px;
+        align-items: center;
+    }
+    
+    /* fin del header*/
+
+    /* inicio de seccion 2 contacto*/
+
+    .seccion2_informacion {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgb(242, 230, 243);
+    }
+
+    .seccion2_informacion .seccion2_formacion {
+        width: 60%;
+ }
+    /* fin de seccion 2 contacto*/
+
+    /* inicio de seccion 4 contacto*/
+
+    .carousel {
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: rgb(242, 230, 243);
+    }
+   
+    .carousel .info_carousel1 {
+        width: 70%;
+    }
+
+    /* fin de seccion 4 contacto*/
+
+}

@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto !important;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1350px; 
+}
+
+ul {
+    padding: 0;
+}
+
+/* inicio del header*/
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+}
+
+#caja {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header .barra_de_contacto_superior {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(248, 248, 245);  
+}
+
+header .barra_de_contacto_superior .menu_superior_izquierdo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+header .barra_de_contacto_superior .menu_superior_izquierdo ul {
+    display: inline-flex;
+    list-style: none;
+    margin: auto 15px;
+}
+
+.menu_superior_izquierdo ul a {
+    color: #000;
+    text-decoration: none;
+}
+
+.menu_superior_izquierdo ul .imagen_telefono_correo {
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    margin-left: 15px;
+}
+
+header .barra_de_contacto_superior .menu_superior_derecho {
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header .barra_de_contacto_superior .menu_superior_derecho ul {
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+    margin: auto;
+}
+
+header .barra_de_contacto_superior .menu_superior_derecho ul li{
+    padding: auto 0;
+    margin: auto 0;
+    
+}
+
+header .barra_de_contacto_superior .menu_superior_derecho ul a{
+    text-decoration: none;
+}
+header .barra_principal {
+    background-color: rgb(235, 179, 196);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .barra_principal #boton {
+    display: none;
+    cursor: pointer;
+
+}
+
+
+header .barra_principal .logo_psicoelecciones .logo{
+    margin-left: 30px;
+    width: 85%;
+    min-width: 230px;
+    
+}
+
+header .barra_principal .menu_principal {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+header .barra_principal .menu_principal .items_menu {
+    display: inline-flex;
+    list-style: none;
+    text-align: end;
+    margin: auto;
+    
+}
+
+.barra_principal .menu_principal .items_menu a {
+    padding: 0 20px;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+/* fin del header*/
+
+main {
+    padding-top: 105px;
+}
+
+section {
+    scroll-margin-top: 105px ;
+}
+
+/* inicio de seccion 1 presentacion*/
+
+main .seccion1_presentacion {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.seccion1_presentacion .imagen_seccion1 {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 100%;
+    margin: auto 5%;
+}
+
+.seccion1_presentacion .imagen_seccion1 img {
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+    padding: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.seccion1_presentacion .imagen_seccion1 p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seccion1_presentacion .info_seccion1 {
+    margin-right: 5%;
+    padding: auto;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.seccion1_presentacion .info_seccion1 h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding: 0 auto;
+    margin-top: 20px;
+    
+}
+    
+.seccion1_presentacion .info_seccion1 p {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    padding: 0 auto;
+    margin: 40px 40px;
+    text-align: center;
+    line-height: 35px;
+}
+
+/* fin de seccion 1 presentacion*/
+
+/* inicio de seccion 2 informacion personal*/
+
+.seccion2_informacion {
+    
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items:center;
+    background-color: rgb(242, 230, 243);
+}
+
+.seccion2_informacion .seccion2_formacion {
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px;
+    border-radius: 40px;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: inset 0px 0px 20px rgb(167, 45, 45);
+}
+
+.seccion2_informacion .seccion2_formacion h4 {
+    padding-top: 20px;
+    font-family: 'Lobster', cursive;
+    color: black;
+    text-align: center;
+}
+
+.seccion2_informacion .seccion2_formacion:hover{
+    background-color: rgb(167, 45, 45);
+    color: white;
+    box-shadow: inset 0px 0px 15px black
+}
+
+/* fin de seccion 2 informacion personal*/
+
+/* inicio de seccion 3 servicios*/
+
+main .seccion3_servicio {
+   display: flex;
+   flex-direction: row-reverse;
+   background-color: black;
+   align-items: center;
+}
+
+
+
+.seccion3_servicio .imagen_seccion3 #imagen_servicio {
+    width: 100%;
+    height: 80%;
+    min-width: 220px;
+}
+
+.seccion3_servicio .info_seccion3 {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: top;
+    background-color: black;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+
+.seccion3_servicio h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: white
+} 
+
+.seccion3_servicio .info_seccion3 .info_seccion3a {
+    
+    margin: 30px 50px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 20px rgb(167, 45, 45);
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+
+.seccion3_servicio .info_seccion3 .info_seccion3a p{
+    padding: 10px;
+    margin: auto;
+}
+/* fin de seccion 3 servicios*/
+
+/* inicio de seccion 4 contacto y carousel*/
+
+.carousel {
+    
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+    background-color: rgb(242, 230, 243);
+}
+
+
+.carousel .info_carousel1 {
+    display: flex;
+    flex: 1;
+    background-color: rgb(242, 230, 243);
+    text-align: center;
+    justify-content:center;
+    flex-direction: column;
+    margin: 0 20px;
+
+}
+
+.carousel .info_carousel1 h1 {
+    font-family: 'Lobster', cursive;
+    padding-top: 10px;
+    color: rgb(167, 45, 45);
+}
+
+.carousel .info_carousel1 p {
+    font-family: 'Lobster', cursive;
+    color: black;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+
+.slide {
+    flex:1 
+}
+
+.carousel .espacio_formulario {
+    background-color: rgb(242, 230, 243);
+    text-align: center;
+    justify-content: center;
+    
+    margin: 10px;
+}
+
+.carousel .espacio_formulario h2  {
+    font-family: 'Lobster', cursive;
+    color: rgb(167, 45, 45);
+}
+
+.carousel .espacio_formulario input {
+    margin: 5px ;
+    width: 80%;
+    padding: 0px 10px;
+}
+
+.carousel .espacio_formulario textarea {
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 0px 10px;
+}
+
+.carousel .espacio_formulario #btn {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(167, 45, 45);
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+.carousel .espacio_formulario #btn a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* fin de seccion 4 contacto y carousel*/
+
+/* Inicio footer*/
+
+footer div ul li a {
+    text-decoration: none;
+    padding: auto;
+    margin: auto;
+}
+
+footer div ul li a img {
+    width: 30px;
+}
+
+

@@ -1,0 +1,102 @@
+/*tamaño de movil grande*/
+@media only screen and (max-width: 570px) {
+    
+
+    /* inicio del header*/
+
+    ul {
+        padding: 0;
+    }
+
+   
+
+    header .barra_principal #boton:hover{
+        opacity: .8;
+    }
+
+    header .barra_principal .logo_psicoelecciones {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header .barra_de_contacto_superior {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: rgb(248, 248, 245);
+     }
+
+     header .barra_de_contacto_superior .menu_superior_derecho {
+         margin: 0;
+     }
+
+     header .barra_de_contacto_superior .menu_superior_derecho ul{
+         margin: 0;
+     }
+
+     header .barra_principal .logo_psicoelecciones .logo{
+         margin: 0;
+         }
+
+         header .barra_de_contacto_superior .menu_superior_izquierdo ul img{
+            margin: 0;
+            
+        }
+     
+         header .barra_de_contacto_superior .menu_superior_izquierdo ul {
+         margin: 0;
+         flex-direction: column;
+     }
+
+     .barra_principal .menu_principal .items_menu a {
+        padding: 0 10px;
+     }
+
+/* fin del header*/
+
+    main {
+        padding-top: 78px;
+    }
+
+    section {
+        scroll-margin-top: 78px;
+    }
+    
+    /* inicio de seccion 3*/
+
+    main .seccion3_servicio {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        background-color: black;
+        align-items: center;
+     }
+     /* fin de seccion 3*/
+
+     /* inicio de footer*/
+
+     #container2 {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+     }
+
+     #caja {
+       
+        height: 0px;
+        flex-direction: column;   
+        width: 100%;
+        transition: height .4s;
+    }
+
+    header .barra_principal #boton {
+        display: block;
+        margin-left: 1px;
+        padding-left: 20px;  
+    }
+
+
+ }
